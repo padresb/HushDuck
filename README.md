@@ -8,6 +8,10 @@ A tiny macOS menu bar utility that **mutes your system audio while you hold the 
 
 Some media players (Apple Music, Spotify, etc.) will even **pause playback** while ducked, so you pick up right where you left off.
 
+## Download
+
+**[Download HushDuck v1.0](https://github.com/padresb/HushDuck/releases/download/v1.0/HushDuck-v1.0.zip)** — Signed and notarized by Apple. Unzip and drag to Applications.
+
 ## How It Works
 
 1. HushDuck sits quietly in your menu bar
