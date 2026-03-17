@@ -38,8 +38,8 @@ That's it. If your audio was already muted before pressing Fn, HushDuck won't un
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/hushduck.git
-cd hushduck
+git clone https://github.com/padresb/HushDuck.git
+cd HushDuck
 
 # Build and package as .app
 ./build-app.sh
