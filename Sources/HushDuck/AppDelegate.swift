@@ -1,5 +1,6 @@
 import AppKit
 import Combine
+import ServiceManagement
 
 @MainActor
 final class AppDelegate: NSObject, NSApplicationDelegate {
@@ -53,6 +54,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             name: NSWorkspace.willSleepNotification,
             object: nil
         )
+
+        // Register as login item
+        try? SMAppService.mainApp.register()
 
         // Check accessibility and start monitoring
         checkAccessibilityAndStart()
