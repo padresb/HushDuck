@@ -3,3 +3,14 @@
 .swiftpm/
 *.xcodeproj/
 xcuserdata/
+
+# Certificates, keys, and signing requests
+tmp/
+*.cer
+*.certSigningRequest
+*.p12
+*.pem
+*.key
+
+# Personal metadata
+BRET.MD
